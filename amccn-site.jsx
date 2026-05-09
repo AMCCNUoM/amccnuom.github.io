@@ -105,10 +105,7 @@ function ReadingRoom({ palette: p }) {
                }}
                onMouseEnter={(e) => e.currentTarget.style.background = p.paper2}
                onMouseLeave={(e) => e.currentTarget.style.background = p.paper}>
-              <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'baseline', marginBottom: 8 }}>
-                <span style={{ fontFamily: FONT_MONO, fontSize: 10, letterSpacing: '0.12em', color: p.accent }}>
-                  No. {String(i + 1).padStart(2, '0')}
-                </span>
+              <div style={{ display: 'flex', justifyContent: 'flex-end', alignItems: 'baseline', marginBottom: 8 }}>
                 <span style={{ fontFamily: FONT_SERIF, fontSize: 14, color: p.soft }}>→</span>
               </div>
               <div style={{ fontFamily: FONT_SERIF, fontSize: 21, color: p.ink, marginBottom: 6, lineHeight: 1.15 }}>
@@ -153,7 +150,6 @@ function ReadingRoom({ palette: p }) {
            style={{ color: p.soft, textDecoration: 'none', cursor: 'pointer' }}>
           ← &nbsp; Home / Research themes
         </a>
-        <span>No. {String(index + 1).padStart(2, '0')} of 12</span>
       </div>
 
       {/* Hero */}
