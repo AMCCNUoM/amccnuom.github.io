@@ -92,10 +92,9 @@ function ReadingRoom({ palette: p }) {
       <section style={{ padding: '32px 80px 40px' }}>
         <div style={{ textAlign: 'center', marginBottom: 28 }}>
           <div style={{ fontFamily: FONT_MONO, fontSize: 10.5, letterSpacing: '0.22em', textTransform: 'uppercase', color: p.soft, marginBottom: 8 }}>
-            Twelve research themes
           </div>
           <h2 style={{ fontFamily: FONT_SERIF, fontStyle: 'italic', fontWeight: 400, fontSize: 26, color: p.ink, margin: 0 }}>
-            What we work on.
+            What we work on
           </h2>
         </div>
         <div style={{ display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: 1, background: p.rule, border: `1px solid ${p.rule}` }}>
