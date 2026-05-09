@@ -27,17 +27,16 @@
 <script type="text/babel" src="amccn-site.jsx"></script>
 
 <script type="text/babel">
-  // Forest palette — change values here to retune the site colours.
-  const PALETTE = {
-    name:   'Forest',
-    ink:    '#1f3a2c',  // headlines, dark surfaces
-    paper:  '#f6f1e6',  // ivory page background
-    paper2: '#ede5d2',  // alt surface (cards, hover)
-    rule:   '#cdc3a8',  // hairline rules
-    accent: '#7a3b1f',  // small punch of colour for numerals / arrows
-    soft:   '#5e5746',  // captions, meta
-    body:   '#2c2a23',  // main body text
-  };
+const PALETTE = {
+  name:   'Monograph',
+  paper:  '#f1ead6',  // oatmeal cream, warm but not pink
+  paper2: '#e6dcc0',  // meaningfully darker; reads as a distinct surface
+  ink:    '#1d2a2e',  // deep blue-black, like oxidised iron-gall ink
+  body:   '#2a241c',  // warm near-black for running text
+  soft:   '#6b6253',  // warm grey-brown for captions
+  rule:   '#b8a980',  // ochre that earns its visibility
+  accent: '#6e2a23',  // deep sienna / oxblood — institutional, not fresh
+};
 
   ReactDOM.createRoot(document.getElementById('root')).render(
     <ReadingRoom palette={PALETTE} />
