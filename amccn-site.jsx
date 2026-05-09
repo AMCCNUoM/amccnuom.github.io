@@ -327,9 +327,10 @@ function ReadingRoom({ palette: p }) {
         title="Imaging suites, labs &amp; testing rooms"
         lede="Centre researchers have shared access to MRI, MEG, EEG, eye-tracking, TMS, tDCS and a dedicated extended-reality suite, alongside behavioural testing rooms across two buildings." />
       <SkeletonRows rows={[
-        { title: 'EEG × 4',                blurb: 'Four high-density EEG suites including dry-electrode and infant-friendly rigs.' },
-        { title: 'TMS / tDCS / TUS suite', blurb: 'Non-invasive brain stimulation paired with concurrent imaging where required.' },
-        { title: 'Extended-reality lab',   blurb: 'Wireless VR with position tracking, eye-tracking and physiological recording.' },
+        { title: 'MRI',                    blurb: '2x 3T MRI scanners.' },
+        { title: 'EEG',                    blurb: '3x EEG suites.' },
+        { title: 'TMS / tDCS / TI', blurb: 'Non-invasive brain stimulation paired with concurrent imaging where required.' },
+        { title: 'Extended-reality lab',   blurb: 'Wireless VR with motion tracking, and movement platforms' },
         { title: 'Physiological tracking', blurb: 'Eye-tracking, pupillometry, ECG and skin-conductance recording (SCR) for indexing cognitive and emotional state.' },
       ]} />
     </div>
