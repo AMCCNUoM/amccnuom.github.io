@@ -177,9 +177,6 @@ function ReadingRoom({ palette: p }) {
           <div style={{ fontFamily: FONT_MONO, fontSize: 10.5, letterSpacing: '0.22em', textTransform: 'uppercase', color: p.soft, marginBottom: 4 }}>
             Laboratories &amp; groups working in this theme
           </div>
-          <div style={{ fontFamily: FONT_SERIF, fontStyle: 'italic', fontSize: 14, color: p.soft }}>
-            {theme.labs.length} group{theme.labs.length === 1 ? '' : 's'} · external links
-          </div>
         </div>
         <ul style={{ listStyle: 'none', margin: 0, padding: 0 }}>
           {theme.labs.map((lab, i) => (
