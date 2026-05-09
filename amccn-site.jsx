@@ -34,10 +34,10 @@ function ReadingRoom({ palette: p }) {
             <text x="22" y="32" textAnchor="middle" fontFamily={FONT_SERIF} fontSize="9" fill={p.ink} letterSpacing="1">M C C N</text>
           </svg>
         </div>
-        <div style={{ fontFamily: FONT_SERIF, fontSize: 30, fontWeight: 500, color: p.ink, letterSpacing: '0.005em' }}>
+        <div style={{ fontFamily: FONT_SERIF, fontSize: 26, fontWeight: 500, color: p.ink, letterSpacing: '0.005em' }}>
           Andrew Mayes Centre
         </div>
-        <div style={{ fontFamily: FONT_SERIF, fontStyle: 'italic', fontSize: 18, color: p.soft, marginTop: 2 }}>
+        <div style={{ fontFamily: FONT_SERIF, fontStyle: 'italic', fontSize: 26, color: p.soft, marginTop: 2 }}>
           for Cognitive Neuroscience
         </div>
       </div>
