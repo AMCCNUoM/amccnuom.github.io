@@ -67,7 +67,8 @@ function ReadingRoom({ palette: p }) {
         <div>Zochonis Building &nbsp;·&nbsp; Brunswick Street &nbsp;·&nbsp; Manchester M13 9PL</div>
         <div>amccn@placeholder.ac.uk &nbsp;·&nbsp; +44 (0)161 000 0000</div>
       </div>
-      <div style={{ display: 'flex', gap: 24, fontFamily: FONT_MONO, fontSize: 10.5, letterSpacing: '0.18em', textTransform: 'uppercase', color: p.soft }}>
+      <div style={{ fontFamily: FONT_SERIF, fontStyle: 'italic', fontSize: 12, color: p.soft }}>
+        Site developed by Darya Frank
       </div>
     </footer>
   );
