@@ -137,6 +137,16 @@ const AMCCN_PALETTES = {
     soft:   '#615a3d',
     body:   '#2b2818',
   },
+  monograph: {
+  name: 'Monograph',
+  ink:    '#1d2a2e',
+  paper:  '#f1ead6',
+  paper2: '#e6dcc0',
+  rule:   '#b8a980',
+  accent: '#6e2a23',
+  soft:   '#6b6253',
+  body:   '#2a241c',
+  },
 };
 
 // Tiny SVG striped-placeholder builder — pass label + dims, drop in as background.
