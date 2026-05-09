@@ -1,6 +1,6 @@
 # Andrew Mayes Centre for Cognitive Neuroscience — website source
 
-This is the source for the AMCCN site (deployable at `amccn.github.io`).
+This is the source for the AMCCN site (deployable at `amccnuom.github.io`).
 It is a small static site — no build step.
 
 ## Files
@@ -30,12 +30,6 @@ Each subpage (`Research`, `Training`, `Facilities`, `Engagement`) is a small com
 
 Open `index.html` in a browser. Babel transpiles the JSX in-browser at load time — no build is needed.
 
-## Deploying to amccn.github.io
-
-1. Create a public repo named `amccn.github.io` under your GitHub user/org.
-2. Push these three files (`index.html`, `amccn-data.jsx`, `amccn-site.jsx`) plus this README to the repo root.
-3. In repo Settings → Pages, source = `Deploy from a branch`, branch = `main`, folder = `/ (root)`. Save.
-4. The site appears at `https://amccn.github.io/` within a minute or two.
 
 ## Notes
 
