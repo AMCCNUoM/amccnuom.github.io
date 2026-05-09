@@ -198,9 +198,6 @@ function ReadingRoom({ palette: p }) {
             </li>
           ))}
         </ul>
-        <div style={{ fontFamily: FONT_MONO, fontSize: 10.5, letterSpacing: '0.04em', color: p.soft, marginTop: 14, textAlign: 'center', fontStyle: 'italic' }}>
-          Each link opens the lab's own website in a new tab.
-        </div>
       </section>
 
       {/* Other themes nav */}
