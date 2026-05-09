@@ -37,7 +37,7 @@ function ReadingRoom({ palette: p }) {
         <div style={{ fontFamily: FONT_SERIF, fontSize: 26, fontWeight: 500, color: p.ink, letterSpacing: '0.005em' }}>
           Andrew Mayes Centre
         </div>
-        <div style={{ fontFamily: FONT_SERIF, fontStyle: 'italic', fontSize: 26, color: p.soft, marginTop: 2 }}>
+        <div style={{ fontFamily: FONT_SERIF, fontStyle: 'italic', fontSize: 24, color: p.soft, marginTop: 2 }}>
           for Cognitive Neuroscience
         </div>
       </div>
