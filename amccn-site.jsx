@@ -30,8 +30,8 @@ function ReadingRoom({ palette: p }) {
         <div aria-hidden style={{ display: 'flex', justifyContent: 'center', marginBottom: 14 }}>
           <svg width="44" height="44" viewBox="0 0 44 44" fill="none">
             <circle cx="22" cy="22" r="21" stroke={p.ink} strokeWidth="1"/>
-            <text x="22" y="20" textAnchor="middle" fontFamily={FONT_SERIF} fontSize="14" fontStyle="italic" fill={p.ink}>A</text>
-            <text x="22" y="32" textAnchor="middle" fontFamily={FONT_SERIF} fontSize="9" fill={p.ink} letterSpacing="1">M C C N</text>
+            <text x="22" y="20" textAnchor="middle" fontFamily={FONT_SERIF} fontSize="14" fontStyle="italic" fill={p.ink}>A M</text>
+            <text x="22" y="32" textAnchor="middle" fontFamily={FONT_SERIF} fontSize="9" fill={p.ink} letterSpacing="1">C C N</text>
           </svg>
         </div>
         <div style={{ fontFamily: FONT_SERIF, fontSize: 26, fontWeight: 500, color: p.ink, letterSpacing: '0.005em' }}>
