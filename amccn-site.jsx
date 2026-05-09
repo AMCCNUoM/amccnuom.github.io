@@ -68,7 +68,6 @@ function ReadingRoom({ palette: p }) {
         <div>amccn@placeholder.ac.uk &nbsp;·&nbsp; +44 (0)161 000 0000</div>
       </div>
       <div style={{ display: 'flex', gap: 24, fontFamily: FONT_MONO, fontSize: 10.5, letterSpacing: '0.18em', textTransform: 'uppercase', color: p.soft }}>
-        <span>Vacancies</span><span>Contact</span><span>Intranet</span>
       </div>
     </footer>
   );
@@ -79,14 +78,12 @@ function ReadingRoom({ palette: p }) {
       {/* Intro */}
       <section style={{ padding: '56px 80px 28px', textAlign: 'center', maxWidth: 760, margin: '0 auto' }}>
         <div style={{ fontFamily: FONT_MONO, fontSize: 10.5, letterSpacing: '0.22em', textTransform: 'uppercase', color: p.accent, marginBottom: 18 }}>
-          —  Established in honour of Professor Andrew Mayes  —
         </div>
         <h1 style={{ fontFamily: FONT_SERIF, fontWeight: 400, fontSize: 44, lineHeight: 1.18, color: p.ink, margin: '0 0 20px', letterSpacing: '-0.005em' }}>
-          A centre for the <em>study of mind</em><br/>and the <em>working brain.</em>
+          Uncovering brain mechanisms in health and disease
         </h1>
         <p style={{ fontSize: 17, lineHeight: 1.7, color: p.body, fontFamily: FONT_SERIF, margin: 0 }}>
-          We bring together psychologists, clinicians, engineers and computer scientists at the
-          University of Manchester to ask how the human brain remembers, attends, perceives and decides
+          We bring together scientists from different fields to ask how the human brain generates cognition, we develop methods to answer thees questions
           — and to translate what we learn into clinical and everyday benefit.
         </p>
       </section>
