@@ -145,7 +145,7 @@ function ReadingRoom({ palette: p }) {
             Read the paper →
           </a>
         </div>
-        <StripedPlaceholder label="Figure · hippocampal trace" h={200} palette={p} />
+        <StripedPlaceholder label="Figure ·" h={200} palette={p} />
       </section>
     </div>
   );
