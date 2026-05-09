@@ -91,8 +91,6 @@ function ReadingRoom({ palette: p }) {
       {/* Themes */}
       <section style={{ padding: '32px 80px 40px' }}>
         <div style={{ textAlign: 'center', marginBottom: 28 }}>
-          <div style={{ fontFamily: FONT_MONO, fontSize: 10.5, letterSpacing: '0.22em', textTransform: 'uppercase', color: p.soft, marginBottom: 8 }}>
-          </div>
           <h2 style={{ fontFamily: FONT_SERIF, fontStyle: 'italic', fontWeight: 400, fontSize: 26, color: p.ink, margin: 0 }}>
             What we work on
           </h2>
