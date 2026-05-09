@@ -158,7 +158,7 @@ function ReadingRoom({ palette: p }) {
           Research theme — {theme.title}
         </div>
         <h1 style={{ fontFamily: FONT_SERIF, fontWeight: 400, fontSize: 56, lineHeight: 1.05, color: p.ink, margin: '0 0 18px', letterSpacing: '-0.01em' }}>
-          <em>{theme.title}.</em>
+          <em>{theme.title}</em>
         </h1>
         <p style={{ fontFamily: FONT_SERIF, fontSize: 19, lineHeight: 1.55, color: p.body, margin: 0 }}>
           {theme.blurb}
